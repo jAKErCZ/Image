@@ -1,20 +1,25 @@
 {
-    "name": "gregwar/image",
+    "name": "jakercz/image",
     "description": "Image handling",
     "keywords": ["image", "gd"],
-    "homepage": "https://github.com/Gregwar/Image",
+    "homepage": "https://github.com/jAKErCZ/Image",
     "license": "MIT",
     "authors": [
         {
             "name": "Grégoire Passault",
             "email": "g.passault@gmail.com",
             "homepage": "http://www.gregwar.com/"
+        },
+        {
+            "name": "Dominik Korčák",
+            "email": "korcak@ratinho.cz",
+            "homepage": "https://www.ratinho.cz"
         }
     ],
     "require": {
         "php": "^5.6 || ^7.0 || ^8.0",
         "ext-gd": "*",
-        "gregwar/cache": "^1.0.6"
+        "jakercz/cache": "1.0.*"
     },
     "require-dev": {
         "sllh/php-cs-fixer-styleci-bridge": "~1.0",
